@@ -60,7 +60,7 @@ class KakaoSignUpView(APIView):
         profile_image = profile_json['kakao_account']['profile']['thumbnail_image_url']
 
         # 유저 정보 저장
-        user, created = User.objects.get_or_create(kakao_id=kakao_id)
+        user, created = MyUser.objects.get_or_create(kakao_id=kakao_id)
         user.profile_image = profile_image
         user.save()
 
