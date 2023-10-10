@@ -15,6 +15,12 @@ djangorestframework-simplejwt = "*"
 mysqlclient = "*"
 pyjwt = "*"
 python-dotenv = "*"
+keras = "*"
+scikit-learn = "*"
+numpy = "*"
+matplotlib = "*"
+opencv-python = "*"
+tensorflow = "*"
 
 [dev-packages]
 

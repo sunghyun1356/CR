@@ -31,7 +31,7 @@ driver.get(url)
 time.sleep(10)  # 2초 기다림
 
 # 여성 선택
-driver.find_element(By.XPATH, '//*[@id="footerCommonPc"]/div[1]/button[2]').click()
+driver.find_element(By.XPATH, '//*[@id="footerCommonPc"]/div[1]/button[3]').click()
 # 남성 선택
     #driver.find_element(By.XPATH, '//*[@id="footerCommonPc"]/div[1]/button[2]').click()
 # 스크롤 창의 맨 위로 올리기
